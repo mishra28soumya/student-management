@@ -4,7 +4,7 @@ const port = 3000
 const fs = require('fs')
 
 app.get('/', (req, res) => {
-  res.end('Welcome to Student Management portal!');
+  res.send('Welcome to Student Management portal!');
 });
 
 app.get("/list_students", (req, res) => {
